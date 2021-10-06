@@ -2,9 +2,8 @@
 
 ## Programme
 
-| Séance 1 	| Introduction : Environnement XML et ses utilisations dans la recherche, rappel des bonnes pratiques 	|
-|----------	|-----------------------------------------------------------------------------------------------------	|
-| Séance 2 	| Initiation à XSLT, définition et première transformation                                            	|
+| Séance 1 	| Introduction : Environnement XML et ses utilisations dans la recherche, rappel des bonnes pratiques 	|
+| Séance 2 	| Initiation à XSLT, définition et première transformation                                            	|
 | Séance 3 	| Les règles de base de XSLT (1), théorie et pratique                                                 	|
 | Séance 4 	| Les conditions et les boucles (1), théorie et pratique                                              	|
 | Séance 5 	| Les conditions et les boucles (2), théorie et pratique (1er contrôle continu)                       	|
@@ -23,17 +22,28 @@ Type d’évaluation : deux notes sur 10 pour les contrôles continus et une not
 ## Ressources numériques
 
 BURGHART, Marjorie, PIERAZZO, Elena et al., Online course: Digital Scholarly Editions: Manuscripts, Texts, and TEI Encoding – Digital Editing of Medieval Manuscripts, [en ligne : https://www.digitalmanuscripts.eu/digital-editing-of-medieval-texts-a-textbook/];
+
 TEI by Example, [en ligne : https://teibyexample.org/TBE.htm]; TEIguidelines, [en ligne : http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html]; 
+
 Xquery Tutorial , [en ligne : https://www.w3schools.com/xml/xquery_intro.asp ];
+
 XPath Tutorial, [en ligne : https://www.w3schools.com/xml/xpath_intro.asp].
+
 XSLT Tutorial, [en ligne : https://www.w3schools.com/xml/xsl_intro.asp].
 
-Éditions à consulter 
+*Éditions à consulter* 
+
 Beta maṣāḥǝft: Manuscripts of Ethiopia and Eritrea <http://betamasaheft.eu>; 
+
+
 Geste: un corpus de chansons de geste <http://dev.chartes.psl.eu/elec/geste/> ;
 Hyperdonat <http://hyperdonat.tge-adonis.fr>; 
+
 Les éditions électroniques de l’École nationale des chartes <http://www.chartes.psl.eu/fr/rubrique-publications/editions-electroniques> ; 
+
 Perseus Digital Library <http://www.perseus.tufts.edu/hopper/>; 
+
 Queste del Saint Graal <http://portal.textometrie.org/bfm/?command=documentation&path=/GRAAL> 
 The glosses to the first book of the Etymologiae of Isidore of Seville: a digital scholarly edition <https://db.innovatingknowledge.nl/edition/#right-network>;
+
 The Shelley-Godwin Archive <http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/i/#/p1/mode/rdg>. 
