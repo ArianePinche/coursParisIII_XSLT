@@ -5,19 +5,12 @@
 | Séance 1 | Introduction : Environnement XML et ses utilisations dans la recherche, rappel des bonnes pratiques |
 |----------|-----------------------------------------------------------------------------------------------------|
 | Séance 2 | Initiation à XSLT, définition et première transformation                                            |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 3 | Les règles de base de XSLT (1), théorie et pratique                                                 |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 4 | Les conditions et les boucles (1), théorie et pratique                                              |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 5 | Les conditions et les boucles (2), théorie et pratique (1er contrôle continu)                       |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 6 | Transformations XML vers XML, mise en pratique des acquis                                           |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 7 | Transformations XML vers HTML                                                                       |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 8 | Transformations XML vers LATEX (2e contrôle continu)                                                |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 9 | Présentation de eXist-db et Initiation à Xquery                                                     |
 
 
