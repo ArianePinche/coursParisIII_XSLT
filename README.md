@@ -1,9 +1,9 @@
 # coursParisIII_XSLT
 
 ## Programme
-
+| Séance | Titre|
+| :--------:| :------------:|
 | Séance 1 | Introduction : Environnement XML et ses utilisations dans la recherche, rappel des bonnes pratiques |
-|----------|-----------------------------------------------------------------------------------------------------|
 | Séance 2 | Initiation à XSLT, définition et première transformation                                            |
 | Séance 3 | Les règles de base de XSLT (1), théorie et pratique                                                 |
 | Séance 4 | Les conditions et les boucles (1), théorie et pratique                                              |
