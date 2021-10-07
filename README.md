@@ -18,6 +18,8 @@
 
 Au cours de l’année, les étudiants seront évalués sur deux examens « sur table » (un contrôle de connaissance et un exercice d’application) et par un projet final qui comptera pour la moitié de la note. Le projet final devra comporter l’encodage en XML TEI d’un texte (qui pourra être repris de précédents projets), une feuille de transformation XSLT, une proposition de visualisation de l’encodage XML TEI. Les fichiers informatiques devront être accompagnés d’une présentation (d’une à deux pages) du projet, présentant l’intérêt de l’encodage XML TEI et de sa visualisation en essayant de contextualiser son projet dans le paysage des humanités numériques aujourd’hui.
 
+Pour trouver une source XML TEI, vous pouvez chercher un texte sur le site de l'OBVIL :  https://github.com/OBVIL
+
 Type d’évaluation : deux notes sur 10 pour les contrôles continus et une note sur 20 pour le projet final à rendre le 10 janvier au plus tard.
 
 
