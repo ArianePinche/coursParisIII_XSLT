@@ -48,6 +48,7 @@ Les éditions électroniques de l’École nationale des chartes <http://www.cha
 Perseus Digital Library <http://www.perseus.tufts.edu/hopper/>; 
 
 Queste del Saint Graal <http://portal.textometrie.org/bfm/?command=documentation&path=/GRAAL> 
+
 The glosses to the first book of the Etymologiae of Isidore of Seville: a digital scholarly edition <https://db.innovatingknowledge.nl/edition/#right-network>;
 
 The Shelley-Godwin Archive <http://shelleygodwinarchive.org/sc/oxford/frankenstein/volume/i/#/p1/mode/rdg>. 
