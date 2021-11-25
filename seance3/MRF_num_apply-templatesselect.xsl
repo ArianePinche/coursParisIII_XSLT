@@ -30,8 +30,7 @@
             <xsl:apply-templates select="lg[@type='quatrain'][2]"/>
             <xsl:apply-templates select="lg[@type='quatrain'][1]"/>
             <xsl:apply-templates select="lg/lg[@type='tercet'][2]"/>
-            <xsl:apply-templates select="lg/lg[@type='tercet'][1]"/>
-            
+            <xsl:apply-templates select="lg/lg[@type='tercet'][1]"/>            
         </xsl:copy>
     </xsl:template>
     
