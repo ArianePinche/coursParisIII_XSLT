@@ -23,20 +23,6 @@
             </xsl:element>
         </xsl:copy>
     </xsl:template>
-    
- 
-   <xsl:template match="div">
-        <xsl:copy>
-            <xsl:apply-templates select="lg[@type='quatrain'][2]"/>
-            <xsl:apply-templates select="lg[@type='quatrain'][1]"/>
-            <xsl:apply-templates select="lg/lg[@type='tercet'][2]"/>
-            <xsl:apply-templates select="lg/lg[@type='tercet'][1]"/>
-        </xsl:copy>
-    </xsl:template>
-    
-    <xsl:template match="head">
-        <xsl:copy-of select="."/>
-    </xsl:template>
 
 
     <xsl:template match="lg">
