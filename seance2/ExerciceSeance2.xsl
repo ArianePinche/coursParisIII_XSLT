@@ -13,8 +13,8 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="teiHeader"> <!-- Permet de copier la balise teiHeader et ses enfants -->
-        <xsl:copy-of select="."/>
+    <xsl:template match="teiHeader"> 
+        <xsl:copy-of select="."/> <!-- Permet de copier la balise teiHeader et ses enfants -->
     </xsl:template>
     
     <xsl:template match="text">
