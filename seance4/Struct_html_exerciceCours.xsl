@@ -18,9 +18,9 @@
                     <!-- mettre les différentes manières -->
                     <xsl:value-of select="concat(replace(.//title, 'Mon', 'Un'), ' écrit par ', .//author)"/>
                 </h1>     
-                <xsl:apply-templates select=".//body//lg"/>
+                <xsl:apply-templates select=".//body/lg"/>
 
-                <xsl:element name="div">
+                <xsl:element name="span">
                     <xsl:value-of select="concat('Ce', .//body/div/@type ,' comprend ', count(.//l), ' vers' )"/>
                     <!-- Rajouter les différentes méthodes -->                  
                 </xsl:element>
@@ -28,11 +28,31 @@
         </html>
     </xsl:template>   
     <xsl:template match="lg">
-        <xsl:if test="@type='quatrain'">
+        <!--
+        <xsl:if test="position()=1">
        <xsl:element name="ul">
             <xsl:apply-templates/>
        </xsl:element>
         </xsl:if>
+        -->
+        <xsl:choose>
+            <xsl:when test="@type='sonnet'">
+                <div>
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+            <xsl:when test="@type='sizain'">
+                <div>
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+           <xsl:otherwise>
+               <ul>
+                   <xsl:apply-templates/>
+               </ul>
+           </xsl:otherwise>
+        </xsl:choose>
+        
     </xsl:template>   
     <xsl:template match="l">
         <xsl:element name="li">

@@ -22,7 +22,7 @@
    </teiHeader>
    <text>
       <body>   
-         <div type="sonnet">
+         <lg type="sonnet">
             <head>Mon rêve familier</head>
             <lg type="quatrain" n="1">
                <l>Je fais souvent ce rêve étrange et pénétrant</l>
@@ -48,7 +48,7 @@
                   <l>L'inflexion des voix chères qui se sont tues.</l>
                </lg>
             </lg>
-         </div>
+         </lg>
       </body>
    </text>
 </TEI>
