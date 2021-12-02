@@ -14,9 +14,17 @@
             </head>
             <body>
                 <h1>
-                <!--    <xsl:value-of select="concat(.//title, ' écrit par ', .//author)"/> -->
-                    <!-- mettre les différentes manières -->
+                <!--  <xsl:value-of select="concat(.//title, ' écrit par ', .//author)"/> -->
+                         
+                    <!-- règle équivalente sans concat 
+                    <xsl:value-of select="descendant::title"/>
+                    <xsl:text> écrit par </xsl:text>
+                    <xsl:value-of select="descendant::auteur"/>
+                    -->
+                    
+                    <!-- création du titre avec replace -->
                     <xsl:value-of select="concat(replace(.//title, 'Mon', 'Un'), ' écrit par ', .//author)"/>
+                    
                 </h1>     
                 <xsl:apply-templates select=".//body/lg"/>
 
@@ -28,13 +36,13 @@
         </html>
     </xsl:template>   
     <xsl:template match="lg">
-        <!--
+        <ul><xsl:apply-templates/></ul>    
+        <!-- règles avec des conditions 
         <xsl:if test="position()=1">
        <xsl:element name="ul">
             <xsl:apply-templates/>
        </xsl:element>
         </xsl:if>
-        -->
         <xsl:choose>
             <xsl:when test="@type='sonnet'">
                 <div>
@@ -52,7 +60,7 @@
                </ul>
            </xsl:otherwise>
         </xsl:choose>
-        
+         -->
     </xsl:template>   
     <xsl:template match="l">
         <xsl:element name="li">
